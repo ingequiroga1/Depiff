@@ -1,0 +1,55 @@
+/* To make Responsive
+---------------------------------------------------------------------- /
+*
+*  1 - media screen and (max-width: 992px)
+*  2 - media screen and (max-width: 800px)
+*  3 - media screen and (max-width: 768px)
+*  4 - media screen and (max-width: 640px)
+*  5 - media screen and (max-width: 500px)
+*  6 - media screen and (max-width: 480px)
+*  7 - media screen and (max-width: 320px)
+*  8 - media screen and (max-width: 1170px)
+*  9 - (min-width: 1500px)
+*
+---------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 991px) {
+/*
+ .imagen{
+ 	float: left;
+ 	position: relative;
+ 	width: 50%; 
+ 	height: auto;
+	 }
+*/
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	/*
+	 .imagen{
+ 	float: left;
+ 	position: relative;
+ 	width: 339px; 
+ 	height: 503px;
+	 }
+	*/
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+.nombre h2{
+	font-size: 1rem;
+}
+
+.banncotizar h2{
+	font-size: 1rem;
+}
+
+}

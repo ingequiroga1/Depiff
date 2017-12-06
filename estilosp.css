@@ -1,0 +1,157 @@
+.Q-AzulDepiff{color:#fff!important;background-color:#2B4689!important}
+.Q-BlancoDepiff{color:#2B4689!important;background-color:#fff!important}
+.PiedeForm{height: 40px;}
+
+.container{
+	max-width: 940px;
+	width: auto;
+	padding: 0;
+	margin:0 auto;
+}
+
+/*--------------Titulos-------------------*/
+
+h2{
+	font-family: 'Oswald', sans-serif
+}
+
+.consultation-form-header{padding: 5px 30px 10px 30px;}
+.consultation-form-body{padding: 25px 50px;}
+.form-control{
+	border: 2px solid #007AC2; 
+	border-radius: 0;
+    color: #363636;
+    font-size: 1em;
+    box-shadow: none;}
+.q-dropdown{z-index: 1;}
+
+a{
+	text-decoration: none;
+}
+
+/*
+header{
+	height: 120px;
+	border-bottom: 10px solid #2B4689;
+}
+*/
+
+header 
+.navbar-header{
+	padding-top: 20px;
+	float: left;
+}
+
+/*
+@media only screen and (max-width: 479px){}
+header {
+		height: 65px;
+	   }
+}*/
+
+
+
+.navbar-default{
+	border: none;
+	background: none;
+	margin:0;
+}
+
+.navbar-collapse{
+	padding-top: 50px;
+	min-width: 700px;
+	padding-right: 0px;
+	float: right;
+}
+
+.navbar{
+	position: relative;
+	min-height: 50px;
+}
+
+.navbar-nav{
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+.navbar-nav li {
+	float: left;
+}
+
+.navbar-nav li a{
+	padding: 0 10px;
+	color: #2B4689;
+	text-transform: uppercase;
+	line-height: 20px; 
+}
+
+.navbar-header{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.item{
+	bottom:10%; 
+	left: 8px; 
+	opacity:0.7;
+	width: 500px;
+	text-align: center;
+}
+
+
+.Q-animate-top{
+	position:relative;animation:animatetop 1s
+	}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+
+/*------------------------------------Colores Fuenntes-----------------------------------------*/
+.fblue{
+	color: #2B4689;
+}
+
+.Q-border-blue,.Q-hover-border-blue:hover{border-color:#2B4689!important}
+
+
+/*-----------------------------------Margin y padding-------------------------------------------*/
+
+.Q-tp50{
+	padding-top: 50px;
+}
+
+
+.Q-bp50{
+	padding-bottom: 50px;
+}
+
+/*-----------------------------Formulario----------------------------------*/
+ .form{
+ 	padding-left: 15%;
+ 	margin-top: 20px;
+ }
+ 
+ /*----------------------Imagen-------------------------------*/
+ .imagen{
+ 	float: left;
+ 	position: relative;
+ 	width: 654.5px; 
+ 	height: 503px;
+ }
+
+ .imagen-form{
+ 	float: left;
+ 	position: relative;
+ 	width: 400px; 
+ 	height: 503px;
+
+ }
+
+
+/*--------------------Inputs----------------------------------------------*/
+.Q-select{
+	padding: 9px 0;
+    width: 100%;
+    color: #2B4689;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #808080;
+}

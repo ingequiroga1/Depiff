@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Depiff</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="estilosp.css">
+<link rel="stylesheet" href="depiffresponsive.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: 'Oswald', sans-serif}
+.mySlides {display: none}
+ #map {height: 400px;width: 100%;    }
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100415563-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+
+<!-- NavBar -->
+<nav class="w3-top">
+      <ul class="w3-navbar Q-AzulDepiff w3-card-2">
+        <li class="w3-hide-medium w3-hide-large w3-opennav">
+           <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+             <i class="fa fa-bars"></i>
+           </a>
+        </li>
+
+        <li class="w3-right w3-hide-small">
+            <a href="#contact" class="w3-padding-large">CONTACTO</a>
+        </li>
+
+        <li class="w3-hide-small w3-right">
+            <a href="#tour" class="w3-padding-large">SERVICIOS</a>
+        </li>
+
+        <li class="w3-hide-small  w3-right">
+            <a href="#band" class="w3-padding-large">QUIENES SOMOS</a>
+        </li>
+
+        <li class="w3-hover-none w3-hover-text-grey w3-right  w3-hide-small">
+            <a href="#" class="w3-padding-large">PRINCIPAL</a>
+        </li>
+
+        <li class="w3-hide-small w3-left">
+        <a href="#" class="w3-padding-large w3-hover-red">DEPIFF SEGUROS</a>
+        </li>
+
+      </ul>
+</nav>
+
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-hide  w3-hide-large  w3-hide-medium  w3-top  Q-AzulDepiff" style="margin-top:46px">
+
+  <ul class="w3-navbar  w3-left-align  Q-AzulDepiff">
+    <li><a class="w3-padding-large" href="#band">QUIENES SOMOS</a></li>
+    <li><a class="w3-padding-large" href="#tour">SERVICIOS</a></li>
+    <li><a class="w3-padding-large" href="#contact">CONTACTO</a></li>
+    <li><a class="w3-padding-large" href="#">MERCH</a></li>
+  </ul>
+
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px;">
+
+  <section id="slides">
+  <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+
+            <img src="images/seguro-de-vida.png" style="width:100%;height:662px">
+           
+            <div class="  w3-display-topleft  ">
+              <div class="w3-animate-left  w3-container  w3-indigo"><h2>Depiff Seguros</h2></div> 
+            </div>
+
+            <div class="  w3-display-left w3-container"
+                style="bottom:10%">
+                <h1 class="Q-animate-top  fblue"><b>Asegura su futuro desde el dia de hoy</b></h1>
+                <p><button class="w3-button w3-border  w3-left w3-animate-left  fblue"><b>Contacto»</b></button></p>            
+            </div> 
+
+            <div class="w3-display-bottomright">
+                <div class="w3-container  w3-indigo  w3-animate-right w3-left-align" style="padding-bottom: 40px; padding-right: 20px; max-width: 205px;">
+                    <h4>Seguro de Vida</h4>
+                    <p>Asegura a tu familia en caso de que sufras un accidente</p>
+                    <button class="w3-button w3-indigo w3-border" onclick="document.getElementById('id01').style.display='block'"><b>Cotizar»</b></button>
+                </div>
+              
+            </div>
+
+        </div>
+
+        <div class="mySlides w3-display-container w3-center">
+          <img src="images/depiffinicio2.jpg" style="width:100%;height:662px">
+
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3 class="w3-animate-top" style="color:#2B4689"><b>Asegura lo más importante...</b></h3> 
+            <h2 class="w3-animate-top"  style="text-align: right; color:#2B4689">...tú mismo.</h2>
+            <img  class="w3-animate-top" src="images/logodepiffv1.png" style="width:100%">
+          </div>
+
+          <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small" 
+                style="bottom:10%;opacity:0.7;width:30%">
+                <h1><b>Planes de ahorro</b></h1>
+                 <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Conocer mas»</b></button></p>
+          </div>
+          
+          <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-large w3-hide-medium">
+            <h3 style="color:#2B4689; font-size: 20px;"><b>Asegura lo más importante...</b></h3> 
+            <h2 style="text-align: right; color:#2B4689">...tú mismo.</h2>
+            <img src="images/logodepiffv1.png" style="width:100%">
+          </div>
+
+        </div>
+
+        <div class="mySlides w3-display-container w3-center">
+
+          <img src="images/depiffinicio3.jpg" style="width:100%;height:662px">
+
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3 style="color:#2B4689"><b>Asegura lo más importante...</b></h3> 
+            <h2 style="text-align: right; color:#2B4689; _color:#FFFFFF">...tú mismo.</h2>
+            <img src="images/logodepiffv1.png" style="width:100%">        
+          </div>
+
+          <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-large w3-hide-medium">
+            <h3 style="color:#2B4689; font-size: 20px;"><b>Asegura lo más importante...</b></h3> 
+            <h2 style="text-align: right; color:#2B4689">...tú mismo.</h2>
+            <img src="images/logodepiffv1.png" style="width:100%">
+          </div>
+
+        </div>
+        
+  </section>
+
+  <section id="Llamada" class="w3-display-container w3-content" >
+    <div class="w3-container Q-tp50  Q-bp50  w3-row">
+
+      <div class="w3-half">
+
+              <h2 class="fblue">Protege a tu Familia con un Seguro de Vida</h2>
+
+              <p  style="font-size: 16px; font-weight: 300; line-height: 1.6em; margin-bottom: 30px; color: #9498ab;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+              <div class="w3-large w3-margin-bottom fblue ">                
+                  <i class="fa fa-phone" style="width:30px"></i> Llamanos: 477-2735165<br>
+              </div>
+
+      </div>
+      <div class="w3-half">
+
+         <div class="form">
+             <div class="w3-container  Q-AzulDepiff">
+              <h3>Nosotros te llamamos</h3>
+             </div>
+             <form class="w3-margin-top">
+                <label class="fblue">Nombre:</label>
+                <input class="w3-input  w3-animate-input" type="text"  style="width: 135px; margin-bottom: 15px;"></input>
+
+                <label class="fblue">Telefono:</label>
+                <input class="w3-input  w3-animate-input" type="text"  style="width: 135px; margin-bottom: 15px;"></input>
+                <button class="w3-btn  Q-AzulDepiff">Recibir llamada</button>
+            </form>
+         </div>
+
+
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="cotizar" class="Q-bp50">
+
+    <div class="w3-row">
+          <div class="w3-half">
+
+            <div class="imagen">
+
+              <div w3-container" style="background-image: url(images/seguro-de-vivienda.jpg); width: 100%; height: 100%; background-size: cover; background-position: 50% 50%; position: absolute;"></div>
+              
+            </div>
+
+          </div>
+             
+
+        <div class="w3-half w3-container">
+            <h2 class="fblue">Seguro de Vivienda</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <button class="w3-btn  Q-AzulDepiff" onclick="document.getElementById('id01').style.display='block'"><b>Obtener Cotización»</b></button>
+
+              <div id="id01" class="w3-modal">
+
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+
+                  <div class="w3-row">
+
+                        <div class="imagen-form w3-half">
+                           <div style="background-image: url(images/recibir-cotizacion.jpg);  width: 100%; height: 100%; background-size: cover; background-position: 50% 50%; position: absolute; overflow: hidden;">
+                        
+                           </div>
+                        </div>
+
+                       <div class="w3-half w3-container">
+
+                          <header class="w3-container fblue"> 
+                            <span class="w3-button w3-display-topright Q-AzulDepiff" onclick="document.getElementById('id01').style.display='none'" 
+                        >&times;</span>
+
+                            <h2  style="margin-top: 40px">Permitenos diseñar tu plan de ahorro</h2>
+                           
+                          </header>
+
+                           <form class="w3-container  fblue">
+                             <p>
+                             <label>Nombre</label>
+                             <input class="w3-input" type="text"></p>
+                    
+                             <p>
+                             <label>Email</label>
+                             <input class="w3-input" type="text"></p>
+
+                              <p>
+                                <select class="Q-select" name="tipo" style="margin-bottom: 20px;">
+                                    <option value="" disabled selected>Tipo de Proteccion</option>
+                                    <option value="1">Seguro de Vida</option>
+                                    <option value="2">Seguro para Automovil</option>
+                                    <option value="3">Seguro de Vivienda</option>
+                                    <option value="3">Seguro Educativo</option>
+                                </select>
+                              </p>
+
+                              <button class="w3-button  w3-border  Q-border-blue" style="color: #2B4689; background:  #fff!important;">Cotizar</button>
+
+                           </form>
+
+                           
+                             
+                       </div>
+
+                       
+                    
+                  </div>
+                 
+                </div>
+
+              </div>
+
+        </div>
+      
+    </div>
+
+    
+  </section>
+ 
+
+  <section></section>
+  <div class=" w3-content w3-center" style="max-width:800px; color:#2B4689!important;" id="band">
+    <h1>Protegerte a ti y a tu familia es tan simple como seguir estos pasos</h1>
+  
+    <div class="w3-row w3-padding">
+
+        <div class="w3-quarter">
+          <p>Hector Carlos Garcia</p>
+           <p>Director de Vida</p>
+           <i class="fa fa-wpforms" style="font-size: 100px"></i>
+          <a href="Form.html"><p>Contacto</p></a>
+        </div>
+
+        <div class="w3-quarter">
+          <p>Monce Perez</p>
+          <p>Director de Riesgos</p>
+          <i class="fa fa-hand-pointer-o"  style="font-size: 100px"></i>
+          <a href="Form.html"><p>Contacto</p></a>
+        </div>
+
+        <div class="w3-quarter">
+          <p>Filomeno Contreras</p> 
+          <p>Director de Gestion Empresarial</p>
+          <i class="fa fa-graduation-cap"  style="font-size: 100px"></i>
+          <a href="Form.html"><p>Contacto</p></a>
+        </div>
+
+        <div class="w3-quarter">
+          <p>Filomeno Contreras</p> 
+          <p>Director de Gestion Empresarial</p>
+           <i class="fa fa-male"  style="font-size: 100px"></i>
+          <a href="Form.html"><p>Contacto</p></a>
+        </div>
+
+    </div>
+
+  </div>
+
+
+<!--Seguros-->
+    <div class="w3-display-container w3-center " style="height:600px;">
+    <!--<img src="images/ny.jpg" style="width:100%;height:662px;opacity: 0.6;filter:alpha(opacity=60);" -->
+        <div class="w3-row-padding">
+
+            <div class="w3-half" style="position: relative;  padding-top: 80px; overflow: hidden;">
+                  <img src="images/segurogastosmedicos.png">
+                  <div class="w3-display-bottomleft  item   w3-amber w3-hover-orange">
+                          <h3>Seguro de Gastos Medicos</h3>
+                          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Conocer mas»</b></button></p>
+                  </div>
+
+            </div>
+            
+            <div class="w3-half" style="position: relative;  padding-top: 80px; overflow: hidden;">
+                <!--<div class="w3-half" style="position: relative;  padding-top: 80px; overflow: hidden;">-->
+               <img src="images/seguroeducativo.png">
+               <div class="w3-display-bottomleft  item  w3-container  w3-amber  w3-hover-orange">
+                          <h3>Seguro Educativo</h3>
+                          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Conocer mas»</b></button></p>
+                  </div>
+
+                 
+                <!-- </div> -->
+               
+            </div>
+
+          
+        </div>
+  </div>
+
+
+
+  <!-- The Band Section -->
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64 " style="max-width:800px; color:#2B4689!important;" id="band">
+
+    <h2 class="w3-wide">Quienes Somos</h2>
+    <p class="w3-opacity"><i>Ayudarte a Tener Tranquilidad Financiera es mi Objetivo</i></p>
+    <p class="w3-justify">DEPIFF somos un importante intermediario de seguros y servicios financieros, que con nuestra experiencia y capacidad brindamos la mejor gestión entre nuestros clientes y la Compañía y/o Institución Financiera.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Hector Carlos Garcia</p>
+         <p>Director de Vida</p>
+        <img src="images/perfil3.jpg" class="w3-round w3-margin-bottom" alt="Hector Carlos Garcia" style="width:60%">
+        <a href="Form.html"><p>Contacto</p></a>
+      </div>
+      <div class="w3-third">
+        <p>Monce Perez</p>
+        <p>Director de Riesgos</p>
+        <img src="images/perfil2.jpg" class="w3-round w3-margin-bottom" alt="Monce Perez" style="width:60%">
+        <a href="Form.html"><p>Contacto</p></a>
+      </div>
+      <div class="w3-third">
+        <p>Filomeno Contreras</p> 
+        <p>Director de Gestion Empresarial</p>
+        <img src="images/perfil1.jpg" class="w3-round w3-margin-bottom" alt="Filomeno Contreras" style="width:60%">
+        <a href="Form.html"><p>Contacto</p></a>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- The Tour Section -->
+  <div class="Q-AzulDepiff" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h1 class="w3-wide w3-center">FILOSOFIA</h1>
+      <p class="w3-opacity w3-center"><i>Es pilar de nuestra actividad, ser leales con los clientes y con los negocios, es darle la mejor opción a pesar de nuestros beneficios. Y respetar a los clientes de acuerdo a su perfil y necesidad.</i></p><br>
+
+  
+  <div class="w3-accordion w3-light-grey">
+    
+        <button onclick="myFuncion('Demo2')" class="w3-btn-block w3-center-align Q-BlancoDepiff" style="color:#2B4689!important; background-color:#fff!important">Mision</button>
+      <div id="Demo2" class="w3-accordion-content w3-container">
+          <h4>MISION</h4>
+          <p>Ofrecer productos y servicios integrales de vanguardia a nuestros clientes buscando la satisfacción para ellos y ser su mejor opción en costo beneficio.</p>
+      </div>
+        <button onclick="myFuncion('Demo3')" class="w3-btn-block w3-center-align" style="color:#2B4689!important; background-color:#fff!important">Visión</button>
+      <div id="Demo3" class="w3-accordion-content w3-container">
+          <h4>VISION</h4>
+          <p>Ser la mejor compañía en servicios patrimoniales y empresariales.</p>
+      </div>
+        <button onclick="myFuncion('Demo4')" class="w3-btn-block w3-center-align" style="color:#2B4689!important; background-color:#fff!important">Valores</button>
+      <div id="Demo4" class="w3-accordion-content w3-container">
+          <h4>VALORES</h4>
+          <p>Servicio, Humildad, Fe y Lealtad.</p>
+      </div>
+  </div>
+
+  <script>
+function myFuncion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+     
+    </div>
+  </div>
+
+  <div class="w3-display-container w3-center" style="height:400px">
+    <!--<img src="images/ny.jpg" style="width:100%;height:662px;opacity: 0.6;filter:alpha(opacity=60);" -->
+        <div class="w3-row-padding">
+
+            <div class="w3-half" style="position: relative;  padding-top: 80px; overflow: hidden;">
+            <video src="images/Seguronegocios123.mp4" autoplay controls loop style="width: 500px;"></video> 
+            </div>
+            
+            <div class="w3-half" style="padding-top: 80px;">
+              <h3 style="color:#2B4689"><b>¿Qué pasaría si ocurriera un desastre y tu negocio no estuviera protegido?</b></h3>
+              <p style="font-size: 20px;">¿Que pasaría si todo por lo que has trabajado tanto se perdiera?
+              Protege tu negocio y tu inversión con un seguro a la medida. </p>
+              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Contacto»</b></button></p>
+            </div>
+
+          
+        </div>
+  </div>
+
+
+   <!-- The Tour Section -->
+  <div id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px; color:#2B4689!important;">
+      <h2 class="w3-wide w3-center">Nuestros Servicios</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+       
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/Deppiffimg2.jpg" alt="Depiffseguros" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Intermediación De Seguros</b></p>
+            <p>Vida, Salud y Gastos Medicos y muchos mas.</p>
+            <button class="w3-btn w3-margin-bottom" onclick="abrirpag()">Recibir Informacion</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/depiffriesgos.jpg" alt="depiffriesgos" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Administración de Riesgos</b></p>
+            <p>Estrategias para establecer o administrar riesgos.</p>
+            <button class="w3-btn w3-margin-bottom" onclick="abrirpag()">Recibir Informacion</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/depiffasesoria.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Asesoría y Gestión </b></p>
+            <p>Consultoría Patrimonial y empresarial.</p>
+            <button class="w3-btn w3-margin-bottom" onclick="abrirpag()">Recibir Informacion</button>
+                 <script>
+			function abrirpag() {
+   			 window.open("http://www.depiff.com/Form.html");
+						}
+</script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Leon Gto, Mexico<br>
+        <i class="fa fa-phone" style="width:30px"></i> Telefono:477-2735165<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: hcarlosgarcia@depiff.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="enviar.php" method="post" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+              </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" name="msg">
+          <button class="w3-btn w3-section w3-right" type="submit" name="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div><!-- End Page Content -->
+</div>
+
+<!-- Add Google Maps -->
+<div id="map"></div>
+<script>
+      function initMap() {
+        var uluru = {lat: 21.1679563, lng: -101.6448679};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+     <script>
+function myFunction() {
+    window.open("https://www.w3schools.com");
+}
+</script>
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAitj9_K-K3-cCzJ9qXW7guISfLxdvxQz&callback=initMap">
+    </script>   
+ 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAitj9_K-K3-cCzJ9qXW7guISfLxdvxQzk&callback=initMap"
+  type="text/javascript"></script>
+<script>
+var myCenter = new google.maps.LatLng(21.1679563,-101.6448679);
+    
+function initialize() {
+    var mapProp = {
+    center: myCenter,
+    zoom: 12,
+    scrollwheel: false,
+    draggable: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+    
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+var marker = new google.maps.Marker({
+    position: myCenter,
+});
+    
+marker.setMap(map);
+}
+    
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com/Depiff-Seguros-826145434201186/" target="_blank"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
+  <i class="fa fa-instagram w3-hover-text-purple"></i>
+  <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+  <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+  <a href="https://twitter.com/Depiff_Seguros" target="_blank"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
+  <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  <p class="w3-medium">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>	
